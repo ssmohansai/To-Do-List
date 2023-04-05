@@ -5,7 +5,7 @@ function TodoList  ({todolist,deleteHandler}) {
         <div>
             {todolist.map((todo,index) =>
             <div key={index}>
-                <h1>{todo} &nbsp; <button onClick={() => deleteHandler(index)}>Delete</button></h1>
+                <h5>{todo} &nbsp; <button onClick={() => deleteHandler(index)}>Delete</button></h5>
             </div>)}
         </div>
     )
